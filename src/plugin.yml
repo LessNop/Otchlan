@@ -1,0 +1,10 @@
+main: op.lessnop.Main
+version: 1.0.0
+name: Otchlan
+commands:
+  otchlan:
+    description: Otworz otchlan.
+    aliases: [ot]
+  otchlanadmin:
+    description: Zarzadzanie pluginem.
+    aliases: [otadmin]

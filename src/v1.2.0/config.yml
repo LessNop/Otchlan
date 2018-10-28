@@ -1,0 +1,45 @@
+#Made by LessNop 28.10.2018
+#Open Source
+
+settings:
+  
+  #Nazwa GUI, ktore pojawia sie po uzyciu /otchlan - uzyj %strona% aby wyswietlic strone gui ktora jest wyswietlana
+  # %strona% MUSI BYC NA KONCU NAZWY EKWIPUNKU I PRZED NIA MUSI BYC SPACJA BO INACZEJ PLUGIN NIE ZADZIALA!
+  nazwaEkwipunku: Otchlan - strona %strona%
+  
+  #Czy itemy maja pozostac w otchlani po restarcie serwera (true/false)
+  zapisItemow: true
+  
+  #Wszystkie czasy mozna podac w: godzinach - 'h' , minutach - 'min', sekundach - 'sek' albo tickach (1/20 sek) - bez jednostki
+  
+  #Czas co jaki itemy maja byc przeniesione do otchlani
+  czasOgolny: 10min
+  
+  #Czas, przed przeniesioniem itemow do otchlani, powiadomienia
+  czasWiadomosci: 1min
+  
+  #Czas po którym otchlan zostaje zamkniêta i wyczyszczona - ustaw '-1' aby byla caly czas otwarta
+  czasOtwarcia: '-1'
+  
+  #Swiaty z ktorych maja znikac itemy
+  swiaty:
+  - world
+  - world_nether
+  - world_the_end
+  
+wiadomosci:
+  
+  #Nazwa przed wiadomoscia - kolory dzialaja poprzez /&NUMER (takze w wiadomosciach)
+  prefix: '/&7[/&bOtchlan/&7] '
+  
+  #Wiadomosc o zamknieciu otchlani
+  1: /&cOtchlan zostala zamknieta!
+  
+  #Wiadomosc o otwarciu otchlani - uzyj %czaspo% aby wyswietlic czas do zamkniecia otchlani
+  2: /&aOtchlan zostala otwarta!
+  
+  #Wiadomosc przed otwarciem otchlani - uzyj %czas% aby wyswietlic czas do otwarcia otchlani (automatycznie przeksztalcany do sekund/minut/godzin
+  3: /&aPrzedmioty z ziemi zostana przeniesione do otchlani za %czas%!
+  
+  #Wiadomosc o zamknietej otchlani (opcjonalna)
+  4: /&cOtchlan jest teraz zamknieta!
